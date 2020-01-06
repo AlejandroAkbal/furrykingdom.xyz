@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dark ">
     <!-- <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
