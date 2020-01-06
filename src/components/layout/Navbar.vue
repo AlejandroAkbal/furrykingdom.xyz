@@ -4,7 +4,7 @@
       <!-- Brand logo -->
       <template slot="brand">
         <b-navbar-item tag="g-link" :to="{ path: '/' }">
-          <g-image alt="Brand image" src="~/favicon.png" />
+          <g-image alt="Brand image" src="~/favicon.png" width="40" />
         </b-navbar-item>
       </template>
 

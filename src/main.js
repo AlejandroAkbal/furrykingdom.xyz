@@ -10,8 +10,7 @@ export default function(Vue, { router, head, isClient }) {
   // Push Icons
   head.link.push({
     rel: 'stylesheet',
-    href:
-      'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/solid.min.css',
+    href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css',
   })
 
   // Use Buefy
