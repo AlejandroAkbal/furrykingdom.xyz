@@ -5,10 +5,9 @@
       <g-link to="/home/">
         <g-image
           alt="Logo image"
-          src="~/assets/img/RK_Logo_RK_Full_-_White.png"
+          src="~/assets/img/logo_white.png"
           height="64"
           width="64"
-          quality="50"
         />
       </g-link>
 
