@@ -5,7 +5,7 @@
       <g-link to="/">
         <g-image
           alt="Logo image"
-          src="@/assets/img/logo_white.png"
+          src="@/assets/img/logowhite.png"
           height="64"
           width="64"
           quality="50"
