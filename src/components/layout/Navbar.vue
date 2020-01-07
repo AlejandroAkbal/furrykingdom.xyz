@@ -2,12 +2,13 @@
   <nav class="navbar flex-col md:flex-row">
     <div class="md:mr-2 md:-mt-2 flex justify-around w-full md:w-auto">
       <!-- Brand -->
-      <g-link to="/home/">
+      <g-link to="/">
         <g-image
           alt="Logo image"
-          src="~/assets/img/logo_white.png"
+          src="@/assets/img/logo_white.png"
           height="64"
           width="64"
+          quality="50"
         />
       </g-link>
 
@@ -23,7 +24,7 @@
       <ul class="flex flex-col md:flex-row">
         <!-- Home -->
         <li>
-          <g-link to="/home/">Home</g-link>
+          <g-link to="/">Home</g-link>
         </li>
 
         <!-- Browse Fursonas -->
