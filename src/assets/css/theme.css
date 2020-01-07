@@ -64,3 +64,9 @@ a:hover {
 .icon {
   @apply text-default fill-current pointer-events-none align-middle;
 }
+
+/* Navbar */
+
+.navbar li {
+  @apply px-2 my-auto;
+}

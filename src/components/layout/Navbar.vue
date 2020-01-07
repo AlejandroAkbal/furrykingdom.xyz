@@ -1,5 +1,7 @@
 <template>
-  <nav class="navbar flex-wrap md:flex-no-wrap">
+  <nav
+    class="p-4 flex flex-wrap md:flex-no-wrap shadow-lg border border-transparent rounded-b-lg overflow-hidden"
+  >
     <div class="-mt-2 flex justify-around w-full md:w-auto">
       <!-- Brand -->
       <g-link to="/">
@@ -130,13 +132,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.navbar {
-  @apply p-4 flex shadow-lg;
-}
-
-.navbar li {
-  @apply px-2 my-auto;
-}
-</style>
