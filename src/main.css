@@ -1,7 +1,2 @@
-@tailwind base;
-
-@tailwind components;
-
+/* Custom */
 @import './assets/css/theme.css';
-
-@tailwind utilities;
