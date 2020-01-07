@@ -8,10 +8,6 @@
 export default {
   name: 'HeroInfo',
 
-  components: {},
-
-  props: {
-    text: { type: String, required: true, default: 'Replace me!' }
-  }
+  components: {}
 }
 </script>

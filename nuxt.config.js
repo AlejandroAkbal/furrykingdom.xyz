@@ -74,6 +74,22 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    // Necessary for CSS Purge
+    extractCSS: true,
+
+    //  Remove console.log everywhere
+    terser: {
+      terserOptions: {
+        compress: {
+          drop_console: true
+        }
+      }
+    },
+    // eslint-disable-next-line no-unused-vars
+    extend(config, { isClient }) {
+      // if (isClient) {
+      //   config.devtool = "source-map";
+      // }
+    }
   }
 }
