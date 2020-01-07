@@ -1,7 +1,28 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Pieces of Eight';
+  src: url('../fonts/Pieces_of_Eight.ttf') format('truetype');
+}
+
+/* @font-face {
+  font-family: 'Pieces of Eight Alt';
+  src: url('../fonts/Pieces_of_Eight_Alt.ttf') format('truetype');
+} */
+
+.custom-font {
+  font-family: 'Pieces of Eight';
+}
+
+/* Theme colors */
+
 .dark {
   /* For text and such */
-  --color-primary: #63b3ed;
-  --color-primary-hover: #3182ce;
+  --color-primary: #a167a5;
+  --color-primary-hover: #845588;
+
+  --color-accent: #4a306d;
+  --color-accent-hover: #3d285a;
 
   /* This is for icons mainly */
   --color-default: white;
@@ -9,11 +30,11 @@
   --color-default-text-muted: gray;
 
   /* For background */
-  --color-background: #181a1b;
+  --color-background: #2c2f33;
 
   /* For borders and such */
-  --color-border: rgb(43, 61, 84);
-  --color-border-hover: #3182ce;
+  --color-border: #23272a;
+  --color-border-hover: #1d2023;
 
   /* For gradients */
   --color-gradient-one: rgb(155, 155, 224);

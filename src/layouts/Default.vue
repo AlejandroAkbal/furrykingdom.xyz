@@ -1,5 +1,5 @@
 <template>
-  <div class="dark ">
+  <div class="dark">
     <!-- <header class="header">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
@@ -12,7 +12,13 @@
 
     <Navbar />
 
-    <slot />
+    <!-- Content -->
+    <main>
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <!-- <Footer /> -->
   </div>
 </template>
 

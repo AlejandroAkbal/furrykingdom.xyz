@@ -2,8 +2,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // Colors
         primary: 'var(--color-primary)',
         'primary-hover': 'var(--color-primary-hover)',
+
+        accent: 'var(--color-accent)',
+        'accent-hover': 'var(--color-accent-hover)',
 
         default: 'var(--color-default)',
         'default-text': 'var(--color-default-text)',
@@ -17,7 +21,11 @@ module.exports = {
         'gradient-one': '--color-gradient-one',
         'gradient-two': '--color-gradient-two',
 
+        // Extra
         'black-25': 'rgba(0, 0, 0, 0.25)',
+
+        // Brands
+        discord: '#7289DA',
       },
 
       inset: {},
