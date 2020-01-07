@@ -1,73 +1,46 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        furry_kingdom
+  <div class="hero-container">
+    <div class="hero-image">
+      <img class="m-auto" src="/img/logo_white.png" alt="Brand image" />
+    </div>
+    <div class="hero-text">
+      <h1 class="text-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        architecto reiciendis odit, accusantium ratione voluptatem ad iure
+        deleniti qui saepe praesentium incidunt at nihil nisi facilis, sit
+        labore? Commodi, facilis.
       </h1>
-      <h2 class="subtitle">
-        My awe-inspiring Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  name: 'SplashPage',
+  components: {},
+  metaInfo: {
+    title: 'Welcome!'
   }
 }
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+.hero-container {
+  height: 50vh;
+  @apply relative overflow-hidden;
 }
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+/* The hero image */
+.hero-image {
+  opacity: 35%;
+
+  @apply w-full absolute h-full;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+/* Place text in the middle of the image */
+.hero-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @apply text-default-text absolute m-auto text-center;
 }
 </style>

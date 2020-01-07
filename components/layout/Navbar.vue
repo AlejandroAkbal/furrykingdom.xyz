@@ -4,18 +4,18 @@
   >
     <div class="-mt-2 flex justify-around w-full md:w-auto">
       <!-- Brand -->
-      <g-link to="/">
-        <g-image
+      <nuxt-link to="/">
+        <img
           alt="Logo image"
-          src="@/assets/img/logo_white.png"
+          src="/img/logo_white.png"
           height="64"
           width="64"
           quality="80"
         />
-      </g-link>
+      </nuxt-link>
 
       <!-- Navigation bar toggler -->
-      <button class="md:hidden p-2 -mb-3" @click="toggleNav">
+      <button @click="toggleNav" class="md:hidden p-2 -mb-3">
         <svg
           class="icon h-6 w-6"
           viewBox="0 0 20 20"
@@ -28,8 +28,8 @@
     </div>
     <!-- Links -->
     <div
-      class="w-full overflow-hidden md:flex md:justify-between"
       :class="isActive ? 'block' : 'hidden'"
+      class="w-full overflow-hidden md:flex md:justify-between"
     >
       <!-- Right -->
       <ul class="flex flex-col md:flex-row ml-2">
@@ -38,42 +38,42 @@
 
         <!-- Home -->
         <li>
-          <g-link to="/">Home</g-link>
+          <nuxt-link to="/">Home</nuxt-link>
         </li>
 
         <!-- Browse Fursonas -->
         <li>
-          <g-link to="/browse/">Browse Fursonas</g-link>
+          <nuxt-link to="/browse/">Browse Fursonas</nuxt-link>
         </li>
 
         <!-- Rules -->
         <li>
-          <g-link to="/rules/">Rules</g-link>
+          <nuxt-link to="/rules/">Rules</nuxt-link>
         </li>
 
         <!-- Events -->
         <li>
-          <g-link to="/events/">Events</g-link>
+          <nuxt-link to="/events/">Events</nuxt-link>
         </li>
 
         <!-- Faq -->
         <li>
-          <g-link to="/faq/">Faq</g-link>
+          <nuxt-link to="/faq/">Faq</nuxt-link>
         </li>
 
         <!-- Staff -->
         <li>
-          <g-link to="/staff/">Staff</g-link>
+          <nuxt-link to="/staff/">Staff</nuxt-link>
         </li>
 
         <!-- Ban appeal -->
         <li>
-          <g-link to="/appeal/">Ban appeal</g-link>
+          <nuxt-link to="/appeal/">Ban appeal</nuxt-link>
         </li>
 
         <!-- Patreon -->
         <li>
-          <g-link to="/patreon/">Patreon</g-link>
+          <nuxt-link to="/patreon/">Patreon</nuxt-link>
         </li>
       </ul>
 
@@ -120,7 +120,7 @@ export default {
 
   data() {
     return {
-      isActive: false,
+      isActive: false
     }
   },
 
@@ -128,7 +128,7 @@ export default {
     toggleNav() {
       this.isActive = !this.isActive
       console.log('hi')
-    },
-  },
+    }
+  }
 }
 </script>

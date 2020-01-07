@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Pieces of Eight';
-  src: url('assets/fonts/Pieces_of_Eight.ttf') format('truetype');
+  src: url('/fonts/Pieces_of_Eight.ttf') format('truetype');
 }
 
 /* @font-face {
