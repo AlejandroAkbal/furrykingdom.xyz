@@ -53,6 +53,7 @@
 /* Common Elements */
 
 a {
+  transition: color 0.25s linear;
   @apply text-default-text;
 }
 

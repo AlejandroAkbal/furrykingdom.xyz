@@ -18,6 +18,7 @@ import Navbar from '~/components/layout/Navbar.vue'
 
 export default {
   name: 'defaultLayout',
+
   components: { Navbar },
 }
 </script>

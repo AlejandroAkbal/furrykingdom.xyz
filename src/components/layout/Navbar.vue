@@ -1,19 +1,27 @@
 <template>
-  <nav class="navbar">
-    <!-- Brand -->
-    <g-link to="/home/" class="my-auto mr-2 -mt-2">
-      <g-image
-        alt="Logo image"
-        src="~/assets/img/RK_Logo_RK_Full_-_White.png"
-        height="64"
-        width="64"
-        quality="50"
-      />
-    </g-link>
+  <nav class="navbar flex-col md:flex-row">
+    <div class="md:mr-2 md:-mt-2 flex justify-around w-full md:w-auto">
+      <!-- Brand -->
+      <g-link to="/home/">
+        <g-image
+          alt="Logo image"
+          src="~/assets/img/RK_Logo_RK_Full_-_White.png"
+          height="64"
+          width="64"
+          quality="50"
+        />
+      </g-link>
+
+      <!-- Navigation bar toggler -->
+      <button class="md:hidden" @click="toggleNav">Toggle</button>
+    </div>
     <!-- Links -->
-    <div class="w-full flex justify-between">
+    <div
+      class="w-full overflow-hidden md:flex md:justify-between"
+      :class="{ hidden: !isActive }"
+    >
       <!-- Right -->
-      <ul class="flex">
+      <ul class="flex flex-col md:flex-row">
         <!-- Home -->
         <li>
           <g-link to="/home/">Home</g-link>
@@ -55,14 +63,16 @@
         </li>
       </ul>
 
-      <ul class="flex">
+      <hr class="md:hidden m-5" />
+
+      <ul class="flex flex-row">
         <!-- Join Us -->
-        <li class="px-2 my-auto">
+        <li class="px-2 m-auto">
           <a href="https://discord.gg/BmZFfB6">Join Us</a>
         </li>
 
         <!-- Join Us -->
-        <li class="px-2">
+        <li class="px-2  m-auto">
           <a href="https://discord.gg/BmZFfB6">
             <button
               class="text-default border-0 rounded-full bg-discord py-2 px-4 shadow hover:shadow-md"
@@ -79,12 +89,24 @@
 <script>
 export default {
   name: 'Navbar',
+
+  data() {
+    return {
+      isActive: false,
+    }
+  },
+
+  methods: {
+    toggleNav() {
+      this.isActive = !this.isActive
+    },
+  },
 }
 </script>
 
 <style>
 .navbar {
-  @apply py-2 px-5 flex shadow-lg;
+  @apply p-4 flex shadow-lg;
 }
 
 .navbar li {
