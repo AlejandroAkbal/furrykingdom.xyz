@@ -13,7 +13,9 @@
       </g-link>
 
       <!-- Navigation bar toggler -->
-      <button class="md:hidden" @click="toggleNav">Toggle</button>
+      <button class="md:hidden" @click="isActive = !isActive">
+        Toggle
+      </button>
     </div>
     <!-- Links -->
     <div
@@ -94,12 +96,6 @@ export default {
     return {
       isActive: false,
     }
-  },
-
-  methods: {
-    toggleNav() {
-      this.isActive = !this.isActive
-    },
   },
 }
 </script>
