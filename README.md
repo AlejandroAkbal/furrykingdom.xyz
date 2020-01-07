@@ -1,14 +1,22 @@
-# Default starter for Gridsome
+# furry_kingdom
 
-This is the project you get when you run `gridsome create new-project`.
+> My awe-inspiring Nuxt.js project
 
-### 1. Install Gridsome CLI tool if you don't have
+## Build Setup
 
-`npm install --global @gridsome/cli`
+``` bash
+# install dependencies
+$ npm run install
 
-### 2. Create a Gridsome project
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
