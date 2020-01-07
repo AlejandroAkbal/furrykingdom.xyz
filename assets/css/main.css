@@ -2,4 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@import './theme.css';
+@import './theme/theme.css';
+@import './general/general.css';
+@import './splashpage/splash.css';

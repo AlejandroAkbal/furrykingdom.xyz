@@ -10,7 +10,6 @@
           src="/img/logo_white.png"
           height="64"
           width="64"
-          quality="80"
         />
       </nuxt-link>
 

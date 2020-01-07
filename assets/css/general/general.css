@@ -1,0 +1,36 @@
+/* Common Elements */
+
+a {
+  transition: color 0.25s linear;
+  @apply text-default-text;
+}
+
+a:hover {
+  @apply text-default-text-hover;
+}
+
+.icon {
+  @apply text-default fill-current pointer-events-none align-middle;
+}
+
+/* Navbar */
+
+.navbar li {
+  @apply px-2 my-auto;
+}
+
+/* Fonts */
+
+/* @font-face {
+  font-family: 'Pieces of Eight';
+  src: url('/fonts/Pieces_of_Eight.ttf') format('truetype');
+} */
+
+/* @font-face {
+  font-family: 'Pieces of Eight Alt';
+  src: url('../fonts/Pieces_of_Eight_Alt.ttf') format('truetype');
+} */
+
+/* .custom-font {
+  font-family: 'Pieces of Eight';
+} */
