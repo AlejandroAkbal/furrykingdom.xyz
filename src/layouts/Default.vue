@@ -1,15 +1,6 @@
 <template>
-  <div class="dark">
-    <!-- <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header> -->
-
+  <div class="bg-gradient">
+    <!-- Navigation bar -->
     <Navbar />
 
     <!-- Content -->
@@ -26,7 +17,7 @@
 import Navbar from '~/components/layout/Navbar.vue'
 
 export default {
-  name: 'Default layout',
+  name: 'defaultLayout',
   components: { Navbar },
 }
 </script>

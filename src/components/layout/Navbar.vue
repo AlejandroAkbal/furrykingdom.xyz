@@ -1,6 +1,17 @@
 <template>
-  <nav class="navbar py-2 px-5 border">
-    <div class="flex justify-between">
+  <nav class="navbar">
+    <!-- Brand -->
+    <g-link to="/home/" class="mr-2">
+      <g-image
+        alt="Logo image"
+        src="~/assets/img/RK_Logo_RK_Full_-_White.png"
+        height="64"
+        width="64"
+        quality="50"
+      />
+    </g-link>
+    <!-- Links -->
+    <div class="w-full flex justify-between">
       <!-- Right -->
       <ul class="flex">
         <!-- Home -->
@@ -54,7 +65,7 @@
         <li class="px-2">
           <a href="https://discord.gg/BmZFfB6">
             <button
-              class="text-default border rounded-full bg-discord py-2 px-4 shadow"
+              class="text-default border-0 rounded-full bg-discord py-2 px-4 shadow hover:shadow-md"
             >
               Login with Discord
             </button>
@@ -71,7 +82,11 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
+.navbar {
+  @apply text-default py-2 px-5 flex shadow-lg;
+}
+
 .navbar li {
   @apply px-2 my-auto;
 }

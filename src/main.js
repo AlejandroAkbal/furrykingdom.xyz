@@ -15,4 +15,9 @@ export default function(Vue, { router, head, isClient }) {
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  // Add attributes to BODY tag dynamically
+  head.bodyAttrs = {
+    class: true ? 'dark bg-background' : 'light bg-background',
+  }
 }

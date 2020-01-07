@@ -40,3 +40,11 @@
   --color-gradient-one: rgb(155, 155, 224);
   --color-gradient-two: rgb(0, 212, 255);
 }
+
+.bg-gradient {
+  background: linear-gradient(
+    160deg,
+    var(--color-gradient-two) 15%,
+    var(--color-gradient-one) 90%
+  );
+}
