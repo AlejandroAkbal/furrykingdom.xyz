@@ -28,9 +28,4 @@ module.exports = {
       */
     },
   ],
-
-  // Temporary until I fix the navbar toggling
-  chainWebpack(config) {
-    config.mode('development')
-  },
 }

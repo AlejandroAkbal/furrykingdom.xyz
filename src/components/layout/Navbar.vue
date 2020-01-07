@@ -20,7 +20,7 @@
     <!-- Links -->
     <div
       class="w-full overflow-hidden md:flex md:justify-between"
-      :class="{ hidden: !isActive }"
+      :class="isActive ? 'block' : 'hidden'"
     >
       <!-- Right -->
       <ul class="flex flex-col md:flex-row ml-2">
