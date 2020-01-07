@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Pieces of Eight';
-  src: url('../fonts/Pieces_of_Eight.ttf') format('truetype');
+  src: url('assets/fonts/Pieces_of_Eight.ttf') format('truetype');
 }
 
 /* @font-face {
@@ -27,6 +27,7 @@
   /* This is for icons mainly */
   --color-default: white;
   --color-default-text: white;
+  --color-default-hover: black;
   --color-default-text-muted: gray;
 
   /* For background */
@@ -47,4 +48,14 @@
     var(--color-gradient-two) 15%,
     var(--color-gradient-one) 90%
   );
+}
+
+/* Common Elements */
+
+a {
+  @apply text-default-text;
+}
+
+a:hover {
+  @apply text-default-text-hover;
 }

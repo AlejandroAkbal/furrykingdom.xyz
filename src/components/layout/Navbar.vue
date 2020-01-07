@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <!-- Brand -->
-    <g-link to="/home/" class="mr-2">
+    <g-link to="/home/" class="my-auto mr-2 -mt-2">
       <g-image
         alt="Logo image"
         src="~/assets/img/RK_Logo_RK_Full_-_White.png"
@@ -84,7 +84,7 @@ export default {
 
 <style>
 .navbar {
-  @apply text-default py-2 px-5 flex shadow-lg;
+  @apply py-2 px-5 flex shadow-lg;
 }
 
 .navbar li {
