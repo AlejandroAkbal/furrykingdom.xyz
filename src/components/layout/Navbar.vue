@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar flex-col md:flex-row">
+  <nav class="navbar flex-wrap md:flex-no-wrap">
     <div class="-mt-2 flex justify-around w-full md:w-auto">
       <!-- Brand -->
       <g-link to="/">
@@ -13,8 +13,15 @@
       </g-link>
 
       <!-- Navigation bar toggler -->
-      <button class="md:hidden" @click="isActive = !isActive">
-        Toggle
+      <button class="md:hidden p-2 -mb-3" @click="toggleNav">
+        <svg
+          class="icon h-6 w-6"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
       </button>
     </div>
     <!-- Links -->
@@ -24,6 +31,9 @@
     >
       <!-- Right -->
       <ul class="flex flex-col md:flex-row ml-2">
+        <!-- Separator -->
+        <hr class="md:hidden m-5" />
+
         <!-- Home -->
         <li>
           <g-link to="/">Home</g-link>
@@ -65,19 +75,20 @@
         </li>
       </ul>
 
+      <!-- Separator -->
       <hr class="md:hidden m-5" />
 
       <ul class="flex flex-row">
         <!-- Join Us -->
-        <li class="px-2 m-auto">
+        <li class="m-auto">
           <a href="https://discord.gg/BmZFfB6">Join Us</a>
         </li>
 
         <!-- Join Us -->
-        <li class="px-2  m-auto">
+        <li class="m-auto">
           <a href="https://discord.gg/BmZFfB6">
             <button
-              class="text-default border-0 rounded-full bg-discord py-2 px-4 shadow hover:shadow-md"
+              class="text-default-text border-0 rounded-full bg-discord py-2 px-4 shadow hover:shadow-md"
             >
               Login with Discord
             </button>
@@ -96,6 +107,13 @@ export default {
     return {
       isActive: false,
     }
+  },
+
+  methods: {
+    toggleNav() {
+      this.isActive = !this.isActive
+      console.log('hi')
+    },
   },
 }
 </script>

@@ -60,3 +60,7 @@ a {
 a:hover {
   @apply text-default-text-hover;
 }
+
+.icon {
+  @apply text-default fill-current pointer-events-none align-middle;
+}
