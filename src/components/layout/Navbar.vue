@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar flex-col md:flex-row">
-    <div class="md:mr-2 md:-mt-2 flex justify-around w-full md:w-auto">
+    <div class="-mt-2 flex justify-around w-full md:w-auto">
       <!-- Brand -->
       <g-link to="/">
         <g-image
@@ -23,7 +23,7 @@
       :class="{ hidden: !isActive }"
     >
       <!-- Right -->
-      <ul class="flex flex-col md:flex-row">
+      <ul class="flex flex-col md:flex-row ml-2">
         <!-- Home -->
         <li>
           <g-link to="/">Home</g-link>
