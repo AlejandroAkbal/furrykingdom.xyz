@@ -1,12 +1,14 @@
 <template>
-  <div class="bg-gradient">
-    <!-- Navigation bar -->
-    <Navbar />
+  <div>
+    <div class="bg-gradient">
+      <!-- Navigation bar -->
+      <Navbar />
 
-    <!-- Content -->
-    <main>
-      <slot />
-    </main>
+      <!-- Content -->
+      <main>
+        <slot />
+      </main>
+    </div>
 
     <!-- Footer -->
     <!-- <Footer /> -->

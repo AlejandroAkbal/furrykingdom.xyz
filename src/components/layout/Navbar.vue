@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="p-4 flex flex-wrap md:flex-no-wrap shadow-lg border border-transparent rounded-b-lg overflow-hidden"
+    class="navbar p-4 flex flex-wrap md:flex-no-wrap shadow-lg overflow-hidden"
   >
     <div class="-mt-2 flex justify-around w-full md:w-auto">
       <!-- Brand -->
