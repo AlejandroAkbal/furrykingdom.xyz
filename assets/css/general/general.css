@@ -23,6 +23,10 @@ a:hover {
   transition: box-shadow 0.25s linear;
 }
 
+.transition-border-color {
+  transition: border-color 0.25s linear;
+}
+
 /* Fonts */
 
 /* @font-face {

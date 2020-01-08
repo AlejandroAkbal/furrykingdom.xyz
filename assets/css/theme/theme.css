@@ -2,8 +2,8 @@
 
 .dark {
   /* For text and such */
-  --color-primary: #a167a5;
-  --color-primary-hover: #845588;
+  --color-primary: #9b9be0;
+  --color-primary-hover: #7f7fb8;
 
   --color-accent: #4a306d;
   --color-accent-hover: #3d285a;
@@ -11,7 +11,7 @@
   /* This is for icons mainly */
   --color-default: white;
   --color-default-text: white;
-  --color-default-hover: black;
+  --color-default-hover: #4d4dc8;
   --color-default-text-muted: gray;
 
   /* For background */

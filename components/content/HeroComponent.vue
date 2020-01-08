@@ -7,7 +7,7 @@
     <div class="absolute flex h-full m-5 z-10 inset-0 top-n10">
       <div class="text-default-text text-center m-auto flex flex-col">
         <!-- Title -->
-        <h1 class="text-3xl md:text-6xl">
+        <h1 class="text-3xl md:text-6xl tracking-wide">
           Welcome to the Furry Kingdom
         </h1>
         <!-- Subtitle -->

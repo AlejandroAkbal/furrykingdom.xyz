@@ -19,8 +19,8 @@ module.exports = {
         border: 'var(--color-border)',
         'border-hover': 'var(--color-border-hover)',
 
-        'gradient-one': '--color-gradient-one',
-        'gradient-two': '--color-gradient-two',
+        'gradient-one': 'var(--color-gradient-one)',
+        'gradient-two': 'var(--color-gradient-two)',
 
         // Extra
         'black-25': 'rgba(0, 0, 0, 0.25)',
