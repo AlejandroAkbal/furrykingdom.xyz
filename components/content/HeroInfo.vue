@@ -19,12 +19,12 @@
     <hr class="m-12 opacity-50" />
 
     <!-- Images -->
-    <section class="flex flex-wrap">
+    <section id="clarifications" class="flex flex-wrap">
       <template v-for="n in 3">
         <!-- Element -->
         <div
           :key="n"
-          class="flex flex-col w-1/4 text-default-text text-center mx-auto"
+          class="flex flex-col w-full md:w-1/4 text-default-text text-center mx-auto"
         >
           <!-- Image -->
           <div class="mx-auto">

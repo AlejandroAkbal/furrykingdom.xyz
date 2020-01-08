@@ -4,10 +4,19 @@
 
 /* The hero image */
 .hero-image {
-  content: '';
   background: url('~assets/img/logo_white.png') no-repeat center center fixed;
   opacity: 0.15;
-  z-index: 0;
 
   @apply inset-0 absolute bg-cover z-0;
+}
+
+/* Fix for smaller devices */
+#clarifications > div:not(:first-child) {
+  @apply mt-12;
+}
+
+@screen md {
+  #clarifications > div:not(:first-child) {
+    @apply mt-0;
+  }
 }
