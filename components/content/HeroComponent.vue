@@ -16,7 +16,10 @@
           Discord
         </h2>
         <!-- Call to action -->
-        <a href="https://discord.gg/BmZFfB6" class="mt-4 mx-auto opacity-100">
+        <a
+          href="https://discord.gg/BmZFfB6"
+          class="mt-4 mx-auto opacity-100 select-none"
+        >
           <button
             class="text-default-text text-lg flex border-0 rounded-full bg-discord py-2 md:py-4 px-4 md:px-8 shadow hover:shadow-lg"
           >

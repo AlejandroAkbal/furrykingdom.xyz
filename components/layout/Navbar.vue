@@ -7,7 +7,7 @@
       <nuxt-link to="/">
         <img
           alt="Logo image"
-          src="/img/logo_white.png"
+          src="~/assets/img/logo_white.png"
           height="64"
           width="64"
         />
@@ -89,7 +89,7 @@
         <li class="m-auto">
           <a href="https://discord.gg/BmZFfB6">
             <button
-              class="text-default-text flex border-0 rounded-full bg-discord py-2 px-4 shadow hover:shadow-md"
+              class="text-default-text flex border-0 rounded-full bg-discord py-2 px-4 shadow select-none"
             >
               <svg
                 class="icon w-6 h-6 pr-1"
