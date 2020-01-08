@@ -4,9 +4,10 @@
 
 /* The hero image */
 .hero-image {
-  opacity: 15%;
-
+  content: '';
   background: url(/img/logo_white.png) no-repeat center center fixed;
+  opacity: 0.15;
+  z-index: 0;
 
-  @apply absolute w-full h-full bg-cover;
+  @apply inset-0 absolute bg-cover z-0;
 }

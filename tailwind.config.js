@@ -26,29 +26,31 @@ module.exports = {
         'black-25': 'rgba(0, 0, 0, 0.25)',
 
         // Brands
-        discord: '#7289DA',
+        discord: '#7289DA'
       },
 
-      inset: {},
+      inset: {
+        n10: '-10%'
+      },
       // Width and height
       spacing: {
         'percent-25': '25%',
-        'fit-content': 'fit-content',
+        'fit-content': 'fit-content'
       },
 
       maxHeight: {
         '0': '0px',
         '1/4': '25%',
         '1/2': '50%',
-        '3/4': '75%',
+        '3/4': '75%'
       },
 
       minHeight: {
         '1/4': '25%',
         '1/2': '50%',
-        '3/4': '75%',
-      },
-    },
+        '3/4': '75%'
+      }
+    }
   },
   // Recommended variant order
   // ['responsive', 'group-hover', 'focus-within', 'first', 'last', 'odd', 'even', 'hover', 'focus', 'active', 'visited', 'disabled']
@@ -56,6 +58,6 @@ module.exports = {
   // Every variant possible
   // variants: ['responsive', 'group-hover', 'focus-within', 'first', 'last', 'odd', 'even', 'hover', 'focus', 'active', 'visited', 'disabled'],
   variants: {
-    textColor: ['responsive', 'group-hover', 'hover', 'focus'],
-  },
+    textColor: ['responsive', 'group-hover', 'hover', 'focus']
+  }
 }
