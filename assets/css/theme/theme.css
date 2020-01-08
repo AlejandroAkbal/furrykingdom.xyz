@@ -15,11 +15,13 @@
   --color-default-text-muted: gray;
 
   /* For background */
-  --color-background: #2c2f33;
+  --color-background: #23272a;
+  --color-background-hover: #1c1f22;
+  /* #1f2424 or DISCORD'S #2c2f33 or #23272A*/
 
   /* For borders and such */
-  --color-border: #23272a;
-  --color-border-hover: #1d2023;
+  --color-border: #343c3d;
+  --color-border-hover: #5d6364;
 
   /* For gradients */
   --color-gradient-one: rgb(155, 155, 224);
@@ -28,8 +30,8 @@
 
 .bg-gradient {
   background: linear-gradient(
-    160deg,
+    130deg,
     var(--color-gradient-two) 15%,
-    var(--color-gradient-one) 90%
+    var(--color-gradient-one) 80%
   );
 }
