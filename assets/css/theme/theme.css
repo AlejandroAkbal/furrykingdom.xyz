@@ -5,8 +5,8 @@
   --color-primary: #9b9be0;
   --color-primary-hover: #7f7fb8;
 
-  --color-accent: #4a306d;
-  --color-accent-hover: #3d285a;
+  /* --color-accent: #4a306d;
+  --color-accent-hover: #3d285a; */
 
   /* This is for icons mainly */
   --color-default: white;
@@ -20,8 +20,8 @@
   /* #1f2424 or DISCORD'S #2c2f33 or #23272A*/
 
   /* For borders and such */
-  --color-border: #343c3d;
-  --color-border-hover: #5d6364;
+  --color-border: #393d3f;
+  --color-border-hover: #4f5255;
 
   /* For gradients */
   --color-gradient-one: rgb(155, 155, 224);

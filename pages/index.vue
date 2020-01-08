@@ -11,7 +11,7 @@
 
     <div class="mx-auto w-5/6 md:w-2/3">
       <!-- Separator -->
-      <hr class="m-12 opacity-50" />
+      <div class="w-full m-12 border border-border" style="height: 1px;" />
 
       <!-- Info text -->
       <section>
@@ -19,7 +19,7 @@
       </section>
 
       <!-- Separator -->
-      <hr class="m-12 opacity-50" />
+      <div class="w-full m-12 border border-border" style="height: 1px;" />
 
       <!-- Images -->
       <section id="clarifications" class="flex flex-wrap">
@@ -38,7 +38,7 @@
       </section>
 
       <!-- Separator -->
-      <hr class="m-12 opacity-50" />
+      <div class="w-full m-12 border border-border" style="height: 1px;" />
     </div>
   </div>
 </template>

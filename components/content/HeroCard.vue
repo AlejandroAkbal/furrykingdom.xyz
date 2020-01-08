@@ -8,7 +8,7 @@
       <img
         :src="img"
         alt=""
-        class="border border-border-hover rounded-full w-32 h-32"
+        class="border border-border-hover hover:border-border transition-border-color rounded-full w-32 h-32"
       />
     </div>
 
