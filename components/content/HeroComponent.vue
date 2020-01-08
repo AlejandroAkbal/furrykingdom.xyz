@@ -1,7 +1,7 @@
 <template>
   <div class="hero-container relative overflow-hidden">
     <!-- Background image -->
-    <div class="hero-image">&nbsp;</div>
+    <div class="hero-image bg-cover inset-0 absolute">&nbsp;</div>
 
     <!-- Information -->
     <div class="absolute flex h-full m-5 z-10 inset-0 top-n10">

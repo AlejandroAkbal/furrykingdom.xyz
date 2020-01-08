@@ -9,8 +9,37 @@
       <HeroComponent />
     </div>
 
-    <!-- Info -->
-    <HeroInfo />
+    <div class="mx-auto w-5/6 md:w-2/3">
+      <!-- Separator -->
+      <hr class="m-12 opacity-50" />
+
+      <!-- Info text -->
+      <section>
+        <HeroInfo />
+      </section>
+
+      <!-- Separator -->
+      <hr class="m-12 opacity-50" />
+
+      <!-- Images -->
+      <section id="clarifications" class="flex flex-wrap">
+        <HeroCard
+          :img="require('~/assets/img/cutie1.png')"
+          title="8k+ Members!"
+        />
+        <HeroCard
+          :img="require('~/assets/img/cutie2.png')"
+          title="Friendly Community"
+        />
+        <HeroCard
+          :img="require('~/assets/img/logo_white.png')"
+          title="Epic Roleplay"
+        />
+      </section>
+
+      <!-- Separator -->
+      <hr class="m-12 opacity-50" />
+    </div>
   </div>
 </template>
 
@@ -18,11 +47,12 @@
 import Navbar from '~/components/layout/Navbar.vue'
 import HeroComponent from '~/components/content/HeroComponent.vue'
 import HeroInfo from '~/components/content/HeroInfo.vue'
+import HeroCard from '~/components/content/HeroCard.vue'
 
 export default {
   name: 'SplashPage',
 
-  components: { Navbar, HeroComponent, HeroInfo },
+  components: { Navbar, HeroComponent, HeroInfo, HeroCard },
 
   metaInfo: {
     title: 'Welcome!'

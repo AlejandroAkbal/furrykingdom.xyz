@@ -6,8 +6,6 @@
 .hero-image {
   background: url('~assets/img/logo_white.png') no-repeat center center fixed;
   opacity: 0.15;
-
-  @apply inset-0 absolute bg-cover z-0;
 }
 
 /* Fix for smaller devices */
