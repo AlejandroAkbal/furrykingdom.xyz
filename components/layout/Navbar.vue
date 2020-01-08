@@ -1,7 +1,5 @@
 <template>
-  <nav
-    class="navbar p-4 flex flex-wrap md:flex-no-wrap shadow-lg overflow-hidden"
-  >
+  <nav class="navbar p-4 flex flex-col md:flex-row shadow-lg overflow-hidden">
     <div class="-mt-2 flex justify-around w-full md:w-auto">
       <!-- Brand -->
       <nuxt-link to="/">
@@ -85,7 +83,7 @@
           <a href="https://discord.gg/BmZFfB6">Join Us</a>
         </li>
 
-        <!-- Join Us -->
+        <!-- Login with discord -->
         <li class="m-auto">
           <a href="https://discord.gg/BmZFfB6">
             <button

@@ -21,11 +21,11 @@ export default {
    ** Customize the progress-bar color
    */
   // loading: { color: '#fff' },
-  loadingIndicator: {
-    name: 'cube-grid',
-    color: '#fff',
-    background: 'linear-gradient(152deg, #9b9be0 38%, #00d4ff 100%)'
-  },
+  // loadingIndicator: {
+  //   name: 'cube-grid',
+  //   color: '#fff',
+  //   background: 'linear-gradient(152deg, #9b9be0 38%, #00d4ff 100%)'
+  // },
   /*
    ** Global CSS
    */

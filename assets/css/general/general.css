@@ -19,6 +19,10 @@ a:hover {
   @apply px-2 my-auto;
 }
 
+.transition-shadow {
+  transition: box-shadow 0.25s linear;
+}
+
 /* Fonts */
 
 /* @font-face {
