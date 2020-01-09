@@ -25,7 +25,7 @@
     <!-- Call to action -->
     <div>
       <button
-        class="border-2 border-primary hover:border-primary-hover transition-border-color rounded-full bg-primary-hover mt-2 px-4 py-2"
+        class="border-2 border-primary-hover  hover:border-primary focus:border-primary transition-border-color rounded-full bg-primary-hover mt-2 px-4 py-2"
       >
         View Details
       </button>
