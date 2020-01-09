@@ -7,7 +7,7 @@
         <b>Rushy's Kingdom</b> is designed with
         <b class="colorful text-2xl md:text-3xl">fun</b>,
         <b class="colorful text-2xl md:text-3xl">freedom</b> and
-        <b class="colorful text-2xl md:text-3xl">diversity</b> in mind
+        <b class="colorful text-2xl md:text-3xl">diversity</b> in mind.
       </h1>
       <!-- Subtitle -->
       <h2 class="text-lg">
