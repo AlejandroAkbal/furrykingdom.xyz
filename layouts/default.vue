@@ -1,20 +1,24 @@
 <template>
   <div>
-    <div>
-      <!-- Content -->
-      <main>
-        <nuxt />
-      </main>
-    </div>
+    <!-- Content -->
+    <main>
+      <nuxt />
+    </main>
 
     <!-- Footer -->
-    <!-- <Footer /> -->
+    <footer>
+      <Footer />
+    </footer>
   </div>
 </template>
 
 <script>
+import Footer from '~/components/layout/Footer.vue'
+
 export default {
   name: 'DefaultLayout',
+
+  components: { Footer },
 
   // Set theme and background color in the body dynamically thanks to the vuex store computed property
   head() {

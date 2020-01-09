@@ -15,6 +15,7 @@ module.exports = {
         'default-text-muted': 'var(--color-default-text-muted)',
 
         background: 'var(--color-background)',
+        'background-hover': 'var(--color-background-hover)',
 
         border: 'var(--color-border)',
         'border-hover': 'var(--color-border-hover)',

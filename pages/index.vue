@@ -9,6 +9,7 @@
       <HeroComponent />
     </div>
 
+    <!-- Page content -->
     <div class="mx-auto w-5/6 md:w-2/3">
       <!-- Separator -->
       <Separator />
@@ -59,6 +60,9 @@
           </discord-messages>
         </div>
       </section>
+
+      <!-- Separator -->
+      <Separator />
     </div>
   </div>
 </template>

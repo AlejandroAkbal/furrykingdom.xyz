@@ -2,8 +2,8 @@
   <!-- Intro text -->
   <div class="mx-auto flex h-full mt-12">
     <h1 class="text-default-text text-lg m-auto text-center">
-      Rushy's Kingdom is designed with fun in mind. Whoever and whatever you
-      are, Rushy's Kingdom encourages you to show your true colors and be
+      <b>Rushy's Kingdom</b> is designed with fun in mind. Whoever and whatever
+      you are, Rushy's Kingdom encourages you to show your true colors and be
       yourself! Enter the kingdom and become a part of this welcoming family of
       interesting characters. We strive to maintain an active community with
       thousands of fluffy friends to meet! With planned community events every
