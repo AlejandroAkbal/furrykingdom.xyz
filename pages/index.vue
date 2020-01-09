@@ -46,7 +46,7 @@
           <discord-messages class="shadow-xl">
             <discord-message
               author="Rush"
-              avatar="https://cdn.discordapp.com/avatars/541023088821665809/261c5ab6bd6b5d5254d9146073002cc4.png?size=128"
+              avatar="https://i.imgur.com/QRpx8zF.png"
               role-color="#ff0065"
             >
               Welcome to our wonderful community!
