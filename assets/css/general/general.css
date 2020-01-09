@@ -17,6 +17,25 @@ a:hover {
   @apply text-default fill-current pointer-events-none align-middle;
 }
 
+.colorful {
+  background: linear-gradient(
+    160deg,
+    var(--color-gradient-two),
+    var(--color-gradient-one)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blockquote::before {
+  content: '\201C';
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 6em/1.08em 'PT Sans', sans-serif;
+
+  @apply absolute text-center text-border bg-background w-12 h-8 top-0;
+}
+
 /* Navbar */
 
 .navbar li {

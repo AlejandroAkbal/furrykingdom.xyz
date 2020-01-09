@@ -1,13 +1,18 @@
-<template functional>
+<template>
   <!-- Separator -->
   <div
-    class="w-full mx-auto m-12 border border-border rounded-full"
+    :class="quote ? 'blockquote' : ''"
+    class="w-full mx-auto m-12 border border-border rounded-full relative"
     style="height: 1px;"
   ></div>
 </template>
 
 <script>
 export default {
-  name: 'Separator'
+  name: 'Separator',
+
+  props: {
+    quote: { default: false, required: false, type: Boolean }
+  }
 }
 </script>

@@ -5,7 +5,7 @@ export default {
    */
   head: {
     title: 'Welcome',
-    titleTemplate: "%s - Rushy's Furry Kingdom",
+    titleTemplate: "%s - Rushy's Kingdom",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

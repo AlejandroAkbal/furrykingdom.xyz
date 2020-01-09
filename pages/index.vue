@@ -6,7 +6,7 @@
     <!-- Page content -->
     <div class="mx-auto w-5/6 md:w-2/3">
       <!-- Separator -->
-      <Separator />
+      <Separator :quote="true" />
 
       <!-- Info text -->
       <section>
@@ -33,7 +33,7 @@
       </section>
 
       <!-- Separator -->
-      <Separator />
+      <Separator :quote="true" />
 
       <!-- Discord messages -->
       <section class="flex flex-col">
