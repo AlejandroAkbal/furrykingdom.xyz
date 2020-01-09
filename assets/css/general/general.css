@@ -52,6 +52,12 @@ a:hover {
 
 /* Fonts */
 
+html {
+  font-display: swap;
+  font-family: 'Roboto' !important;
+  @apply font-sans;
+}
+
 /* @font-face {
   font-family: 'Pieces of Eight';
   src: url('/fonts/Pieces_of_Eight.ttf') format('truetype');
