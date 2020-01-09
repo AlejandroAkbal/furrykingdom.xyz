@@ -55,7 +55,7 @@ export default {
    */
   purgeCSS: {
     // whitelist: ['defaults-and-this-class']
-    whitelistPatterns: [/active/, /fade/, /enter/, /leave/]
+    whitelistPatterns: [/active/, /fade/, /enter/, /leave/, /discord/]
   },
   /*
    ** Sitemap configuration
