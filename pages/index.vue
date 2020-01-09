@@ -77,10 +77,10 @@ import Separator from '~/components/content/Separator.vue'
 export default {
   name: 'SplashPage',
 
-  components: { Navbar, HeroComponent, HeroInfo, HeroCard, Separator },
+  components: { Navbar, HeroComponent, HeroInfo, HeroCard, Separator }
 
-  metaInfo: {
-    title: 'Welcome!'
-  }
+  // metaInfo: {
+  //   title: 'Welcome!'
+  // }
 }
 </script>
