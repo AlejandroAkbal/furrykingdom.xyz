@@ -39,6 +39,26 @@
 
       <!-- Separator -->
       <Separator />
+
+      <!-- Discord messages -->
+      <section class="flex flex-col">
+        <!-- Title -->
+        <h3 class="text-3xl text-default-text text-center mx-auto">
+          What our members say
+        </h3>
+        <div class="mt-5 md:p-10 md:mt-0">
+          <!-- Discord messages -->
+          <discord-messages class="shadow-xl">
+            <discord-message
+              author="Rush"
+              avatar="https://cdn.discordapp.com/avatars/541023088821665809/261c5ab6bd6b5d5254d9146073002cc4.png?size=128"
+              role-color="#ff0065"
+            >
+              Welcome to our wonderful community!
+            </discord-message>
+          </discord-messages>
+        </div>
+      </section>
     </div>
   </div>
 </template>

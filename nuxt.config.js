@@ -33,7 +33,9 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/vue-discord-message.js', mode: 'client', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */

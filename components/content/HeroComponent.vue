@@ -7,18 +7,18 @@
     <div class="absolute flex h-full m-5 z-10 inset-0 top-n10">
       <div class="text-default-text text-center m-auto flex flex-col">
         <!-- Title -->
-        <h1 class="text-3xl md:text-6xl tracking-wide">
-          Welcome to the Furry Kingdom
+        <h1 class="text-3xl md:text-6xl tracking-wide leading-loose">
+          Rushy's Furry Kingdom
         </h1>
         <!-- Subtitle -->
-        <h2 class="text-lg md:text-xl">
+        <h2 class="text-lg md:text-xl leading-relaxed">
           Sync your character data with our Discord Server by logging in with
           Discord
         </h2>
         <!-- Call to action -->
         <a
           href="https://discord.gg/BmZFfB6"
-          class="mt-4 mx-auto opacity-100 select-none"
+          class="mt-5 mx-auto opacity-100 select-none"
         >
           <button
             class="text-default-text text-lg flex border-0 rounded-full bg-discord py-2 md:py-4 px-4 md:px-8 shadow hover:shadow-lg transition-shadow"
