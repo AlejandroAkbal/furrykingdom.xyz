@@ -35,3 +35,10 @@
     var(--color-gradient-one) 80%
   );
 }
+.bg-gradient-navbar {
+  background: linear-gradient(
+    160deg,
+    var(--color-gradient-two) 15%,
+    var(--color-gradient-one) 95%
+  );
+}

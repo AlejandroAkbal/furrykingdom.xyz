@@ -1,13 +1,7 @@
 <template>
   <div>
-    <!-- Share background with Nav and Hero component -->
-    <div class="bg-gradient">
-      <!-- Navigation bar -->
-      <Navbar />
-
-      <!-- Hero text -->
-      <HeroComponent />
-    </div>
+    <!-- Hero text -->
+    <HeroComponent class="bg-gradient" />
 
     <!-- Page content -->
     <div class="mx-auto w-5/6 md:w-2/3">
@@ -68,7 +62,6 @@
 </template>
 
 <script>
-import Navbar from '~/components/layout/Navbar.vue'
 import HeroComponent from '~/components/content/HeroComponent.vue'
 import HeroInfo from '~/components/content/HeroInfo.vue'
 import HeroCard from '~/components/content/HeroCard.vue'
@@ -77,7 +70,7 @@ import Separator from '~/components/content/Separator.vue'
 export default {
   name: 'SplashPage',
 
-  components: { Navbar, HeroComponent, HeroInfo, HeroCard, Separator }
+  components: { HeroComponent, HeroInfo, HeroCard, Separator }
 
   // metaInfo: {
   //   title: 'Welcome!'

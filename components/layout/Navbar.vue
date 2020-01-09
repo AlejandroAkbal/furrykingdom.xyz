@@ -1,5 +1,7 @@
 <template>
-  <nav class="navbar p-4 flex flex-col md:flex-row shadow-lg overflow-hidden">
+  <nav
+    class="navbar fixed top-0 z-50 w-full bg-gradient-navbar p-4 flex flex-col md:flex-row shadow-lg overflow-hidden"
+  >
     <div class="-mt-2 flex justify-around w-full md:w-auto">
       <!-- Brand -->
       <nuxt-link to="/">
