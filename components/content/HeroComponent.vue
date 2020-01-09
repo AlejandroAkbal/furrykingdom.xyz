@@ -4,10 +4,10 @@
     <div class="hero-image bg-cover inset-0 absolute">&nbsp;</div>
 
     <!-- Information -->
-    <div class="absolute flex h-full m-5 z-10 inset-0 top-n10">
+    <div class="absolute flex h-full m-5 z-10 inset-0 top-0">
       <div class="text-default-text text-center m-auto flex flex-col">
         <!-- Title -->
-        <h1 class="text-3xl md:text-6xl tracking-wide leading-loose">
+        <h1 class="text-3xl md:text-6xl tracking-wide">
           Rushy's Furry Kingdom
         </h1>
         <!-- Subtitle -->
