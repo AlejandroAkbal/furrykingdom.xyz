@@ -11,7 +11,7 @@
 
     <div class="mx-auto w-5/6 md:w-2/3">
       <!-- Separator -->
-      <div class="w-full m-12 border border-border" style="height: 1px;" />
+      <Separator />
 
       <!-- Info text -->
       <section>
@@ -19,7 +19,7 @@
       </section>
 
       <!-- Separator -->
-      <div class="w-full m-12 border border-border" style="height: 1px;" />
+      <Separator />
 
       <!-- Images -->
       <section id="clarifications" class="flex flex-wrap">
@@ -38,7 +38,7 @@
       </section>
 
       <!-- Separator -->
-      <div class="w-full m-12 border border-border" style="height: 1px;" />
+      <Separator />
     </div>
   </div>
 </template>
@@ -48,11 +48,12 @@ import Navbar from '~/components/layout/Navbar.vue'
 import HeroComponent from '~/components/content/HeroComponent.vue'
 import HeroInfo from '~/components/content/HeroInfo.vue'
 import HeroCard from '~/components/content/HeroCard.vue'
+import Separator from '~/components/content/Separator.vue'
 
 export default {
   name: 'SplashPage',
 
-  components: { Navbar, HeroComponent, HeroInfo, HeroCard },
+  components: { Navbar, HeroComponent, HeroInfo, HeroCard, Separator },
 
   metaInfo: {
     title: 'Welcome!'
