@@ -1,19 +1,17 @@
 # furry_kingdom
 
-> My awe-inspiring Nuxt.js project
+> Frontend for Rushy's Furry Kingdom
 
 ## Build Setup
 
-``` bash
+You'll need [Nodejs and NPM](https://nodejs.org) installed on your system for the following commands to work.
+
+```bash
 # install dependencies
-$ npm run install
+$ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
 
 # generate static project
 $ npm run generate
