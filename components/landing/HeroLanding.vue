@@ -1,10 +1,10 @@
 <template>
-  <div class="hero-container relative overflow-hidden">
+  <div class="relative overflow-hidden" style="height: 60vh;">
     <!-- Background image -->
     <div class="hero-image bg-cover inset-0 absolute">&nbsp;</div>
 
     <!-- Information -->
-    <div class="absolute flex h-full m-5 z-10 inset-0 top-0">
+    <div class="absolute flex h-full z-10 inset-0 top-0">
       <div class="text-default-text text-center m-auto flex flex-col">
         <!-- Title -->
         <h1 class="text-3xl md:text-6xl tracking-wide">
@@ -45,7 +45,7 @@
 
 <script>
 export default {
-  name: 'HeroComponent',
+  name: 'HeroLanding',
 
   components: {}
 

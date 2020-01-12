@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero text -->
-    <HeroComponent class="bg-gradient" />
+    <HeroLanding class="bg-gradient" />
 
     <!-- Page content -->
     <div class="mx-auto w-5/6 md:w-2/3">
@@ -62,15 +62,15 @@
 </template>
 
 <script>
-import HeroComponent from '~/components/content/HeroComponent.vue'
+import HeroLanding from '~/components/landing/HeroLanding.vue'
 import HeroInfo from '~/components/content/HeroInfo.vue'
 import HeroCard from '~/components/content/HeroCard.vue'
 import Separator from '~/components/content/Separator.vue'
 
 export default {
-  name: 'SplashPage',
+  name: 'Landing',
 
-  components: { HeroComponent, HeroInfo, HeroCard, Separator }
+  components: { HeroLanding, HeroInfo, HeroCard, Separator }
 
   // metaInfo: {
   //   title: 'Welcome!'

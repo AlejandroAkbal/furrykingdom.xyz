@@ -3,6 +3,9 @@
     <!-- Navigation bar -->
     <Navbar />
 
+    <!-- Makes up for the space the fixed navbar takes -->
+    <div class="p-6">&nbsp;</div>
+
     <!-- Content -->
     <main>
       <nuxt />
