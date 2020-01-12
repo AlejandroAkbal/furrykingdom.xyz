@@ -1,10 +1,7 @@
 <template>
-  <div class="relative overflow-hidden" style="height: 60vh;">
-    <!-- Background image -->
-    <div class="hero-image bg-cover inset-0 absolute">&nbsp;</div>
-
+  <div class="overflow-hidden" style="height: 60vh;">
     <!-- Information -->
-    <div class="absolute flex h-full z-10 inset-0 top-0">
+    <div class="hero-image flex h-full">
       <div class="text-default-text text-center m-auto flex flex-col">
         <!-- Title -->
         <h1 class="text-3xl md:text-6xl tracking-wide">

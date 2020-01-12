@@ -1,10 +1,7 @@
 <template>
-  <div class="relative overflow-hidden" style="height: 25vh;">
-    <!-- Background image -->
-    <div class="hero-image bg-cover inset-0 absolute">&nbsp;</div>
-
+  <div class="overflow-hidden" style="height: 25vh;">
     <!-- Information -->
-    <div class="absolute flex h-full z-10 inset-0 top-0">
+    <div class="flex h-full hero-image">
       <div class="text-default-text text-center m-auto flex flex-col">
         <!-- Title -->
         <h1 v-text="title" class="text-3xl md:text-5xl tracking-wide" />

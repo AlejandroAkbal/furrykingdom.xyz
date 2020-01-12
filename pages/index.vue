@@ -19,15 +19,15 @@
       <!-- Images -->
       <section id="clarifications" class="flex flex-wrap">
         <HeroCard
-          :img="require('~/assets/img/cutie1.png')"
+          img="https://res.cloudinary.com/voidlessseven7/image/upload/c_scale,w_128/v1578866352/furrykingdom.xyz/logo_white.png"
           title="8k+ Members!"
         />
         <HeroCard
-          :img="require('~/assets/img/cutie2.png')"
+          img="https://res.cloudinary.com/voidlessseven7/image/upload/c_scale,w_128/v1578866352/furrykingdom.xyz/logo_white.png"
           title="Friendly Community"
         />
         <HeroCard
-          :img="require('~/assets/img/logo_white.png')"
+          img="https://res.cloudinary.com/voidlessseven7/image/upload/c_scale,w_128/v1578866352/furrykingdom.xyz/logo_white.png"
           title="Epic Roleplay"
         />
       </section>

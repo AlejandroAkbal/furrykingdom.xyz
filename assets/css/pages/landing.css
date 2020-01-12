@@ -1,7 +1,7 @@
 /* The hero image */
 .hero-image {
-  background: url('~assets/img/logo_white.png') no-repeat center center fixed;
-  opacity: 0.15;
+  background: url(https://res.cloudinary.com/voidlessseven7/image/upload/o_15/v1578866352/furrykingdom.xyz/logo_white.png)
+    no-repeat center center fixed;
 }
 
 /* Fix for smaller devices */

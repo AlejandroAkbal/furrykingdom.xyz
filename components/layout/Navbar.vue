@@ -7,7 +7,7 @@
       <nuxt-link to="/">
         <img
           alt="Logo image"
-          src="~/assets/img/logo_white.png"
+          src="https://res.cloudinary.com/voidlessseven7/image/upload/c_scale,w_64/v1578866352/furrykingdom.xyz/logo_white.png"
           height="64"
           width="64"
         />
