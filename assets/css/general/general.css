@@ -71,3 +71,14 @@ html {
 /* .custom-font {
   font-family: 'Pieces of Eight';
 } */
+
+/* Page transition */
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-duration: 0.35s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
