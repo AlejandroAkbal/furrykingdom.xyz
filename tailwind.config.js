@@ -17,6 +17,9 @@ module.exports = {
         background: 'var(--color-background)',
         'background-hover': 'var(--color-background-hover)',
 
+        depth: 'var(--color-depth)',
+        'depth-hover': 'var(--color-depth-hover)',
+
         border: 'var(--color-border)',
         'border-hover': 'var(--color-border-hover)',
 

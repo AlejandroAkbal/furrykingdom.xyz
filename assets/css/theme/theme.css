@@ -12,12 +12,16 @@
   --color-default: white;
   --color-default-text: white;
   --color-default-hover: #4d4dc8;
-  --color-default-text-muted: gray;
+  --color-default-text-muted: #4c4c4c;
 
   /* For background */
   --color-background: #23272a;
   --color-background-hover: #1c1f22;
   /* #1f2424 or DISCORD'S #2c2f33 or #23272A*/
+
+  /* For elements like the faq collapsible */
+  --color-depth: #1c1f22;
+  --color-depth-hover: #202326;
 
   /* For borders and such */
   --color-border: #393d3f;

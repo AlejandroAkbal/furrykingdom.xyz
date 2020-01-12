@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  @apply text-default-text-hover;
+  @apply text-default-text-muted;
 }
 
 .icon {
