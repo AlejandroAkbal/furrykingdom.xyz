@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="min-height: 87.5vh;">
     <!-- Hero text -->
     <HeroCover title="Frequently Asked Questions" class="bg-gradient" />
 
