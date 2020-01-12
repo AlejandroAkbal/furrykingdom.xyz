@@ -122,11 +122,17 @@ export default {
       isActive: false
     }
   },
+  // Watch for route changes
+  watch: {
+    $route() {
+      // Close the sidenav
+      this.isActive = false
+    }
+  },
 
   methods: {
     toggleNav() {
       this.isActive = !this.isActive
-      console.log('hi')
     }
   }
 }
