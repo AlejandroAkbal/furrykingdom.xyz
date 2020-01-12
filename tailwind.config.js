@@ -33,13 +33,14 @@ module.exports = {
         discord: '#7289DA'
       },
 
-      inset: {
-        n10: '-10%'
-      },
+      inset: {},
       // Width and height
       spacing: {
-        'percent-25': '25%',
-        'fit-content': 'fit-content'
+        'fit-content': 'fit-content',
+
+        // Margins for content
+        '7vw': '7vw',
+        '14vw': '14vw'
       },
 
       maxHeight: {

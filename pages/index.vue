@@ -4,7 +4,7 @@
     <HeroLanding class="bg-gradient" />
 
     <!-- Page content -->
-    <div class="mx-auto w-5/6 md:w-2/3">
+    <div class="mx-7vw md:mx-14vw">
       <!-- Separator -->
       <Separator :quote="true" />
 
