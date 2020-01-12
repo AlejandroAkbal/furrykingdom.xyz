@@ -11,7 +11,7 @@
         <span v-html="isActive ? '&#9650;' : '&#9660;'" class="colorful"></span>
       </button>
     </div>
-    <!-- Content -->
+    <!-- Content, uses slot -->
     <div v-if="isActive" class="bg-depth-hover px-5 py-3">
       <slot />
     </div>
@@ -24,7 +24,6 @@ export default {
 
   props: {
     title: { type: String, required: true },
-    description: { type: String, required: true },
     active: { type: Boolean, required: false, default: false }
   },
 
