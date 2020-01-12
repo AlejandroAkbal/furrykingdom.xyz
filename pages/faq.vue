@@ -4,9 +4,21 @@
     <HeroCover title="Frequently Asked Questions" class="bg-gradient" />
 
     <!-- Page content -->
-    <div class="mx-auto w-full md:w-2/3 p-6">
-      <FaqCollapsible title="What is the community about?">
-        About fun, freedom and diversity
+    <div class="mx-7vw md:mx-14vw py-3">
+      <!-- Question -->
+      <FaqCollapsible>
+        <template slot="title">What is the community about?</template>
+        <template slot="description">
+          About fun, freedom and diversity.
+        </template>
+      </FaqCollapsible>
+
+      <!-- Question -->
+      <FaqCollapsible>
+        <template slot="title">How are you different from others?</template>
+        <template slot="description">
+          Because we're a kingdom.
+        </template>
       </FaqCollapsible>
     </div>
   </div>
