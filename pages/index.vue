@@ -20,14 +20,17 @@
       <section id="clarifications" class="flex flex-wrap">
         <HeroCard
           img="https://akbal.dev/imageproxy/voidlessseven7/image/upload/c_scale,w_128/v1578866352/furrykingdom.xyz/logo_white.png"
+          loading="lazy"
           title="8k+ Members!"
         />
         <HeroCard
           img="https://akbal.dev/imageproxy/voidlessseven7/image/upload/c_scale,w_128/v1578866352/furrykingdom.xyz/logo_white.png"
+          loading="lazy"
           title="Friendly Community"
         />
         <HeroCard
           img="https://akbal.dev/imageproxy/voidlessseven7/image/upload/c_scale,w_128/v1578866352/furrykingdom.xyz/logo_white.png"
+          loading="lazy"
           title="Epic Roleplay"
         />
       </section>
