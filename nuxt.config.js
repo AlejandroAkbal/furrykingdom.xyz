@@ -4,8 +4,16 @@ export default {
    ** Headers of the page
    */
   head: {
+    // Language
+    htmlAttrs: {
+      lang: 'en'
+    },
+
+    // Title related
     title: 'Welcome',
     titleTemplate: "%s - Rushy's Kingdom",
+
+    // Meta tags
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,6 +24,8 @@ export default {
           "Rushy's Kingdom is a furry server designed with fun, freedom, and diversity in mind. Whoever and whatever you are, Rushy's Kingdom encourages you to show your true colors and be yourself! Enter the kingdom and become a part of this welcoming family of interesting characters. We encourage you to join us  and make some awesome and interesting memories with us."
       }
     ],
+
+    // Favicon
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
