@@ -7,14 +7,33 @@
 - [What I did](https://furrykingdom.netlify.com)
 - [Modified version by Owner](https://furrykingdom.xyz)
 
-## TASKED TO DO
+## Technologies used
+
+### Languages
+
+- HTML
+- CSS
+- Javascript
+- NodeJS
+- NPM
+
+### Frameworks
+
+- Vue
+- Nuxt
+- TailwindCSS
+- PurgeCSS
+- Prettier
+- ESLint
+
+## What I was tasked to do
 
 - [x] **Landing page**
 - [x] **FAQ page**
 - [ ] **Missing pages**
 - [ ] **REST API**
 
-Owner decided to task this project to a cheaper web developer.
+> Owner decided to task this project to a cheaper web developer.
 
 ## Build Setup
 
